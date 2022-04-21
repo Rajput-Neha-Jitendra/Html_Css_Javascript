@@ -1,0 +1,131 @@
+<html>
+<head>
+<title>Function Declaration and
+       function Calling</title>
+</head>
+<body>
+<script type="text/javascript">
+
+  function Bharat()
+  {
+    document.write("Namste Bharat");
+  }
+  Bharat();
+</script>
+</body>
+</html>
+
+<hr>
+
+<html>
+<head>
+<title>Function with Argument</title>
+</head>
+<body>
+<script type="text/javascript">
+ 
+ function gretting(fname,lname)
+ {
+    document.write("Gretting "+ fname 
+    +" " + lname);    
+ }
+ 
+  gretting("Namstey","Bharat");
+  
+</script>
+</body>
+</html>
+
+<hr>
+
+<html>
+<head>
+<title>Multiple function calling</title>
+</head>
+<body>
+<script type="text/javascript">
+
+function gretting(fname,
+lname)
+{
+   document.write("Gretting "+ fname 
+   +" "+ lname);    
+}
+
+function arithmatic_Operation(a,b)
+{
+  document.write(a+b);
+  document.write("<br>");
+  document.write(a-b);
+  document.write("<br>");
+  document.write(a*b);
+  document.write("<br>");
+  document.write(a/b);
+  document.write("<br>");
+  document.write(a%b);
+  document.write("<br>");
+  document.write(++a);
+  document.write("<br>");
+  document.write(--b);
+  document.write("<br>");
+  document.write(4**2);   
+}
+
+ gretting("Namstey","Maharashtra");
+ document.write("<br>");
+ document.write("<br>");
+ gretting("Jay","Yogeshwar");
+ document.write("<br>"); 
+ document.write("<br>");
+ arithmatic_Operation(50,25);
+</script>
+</body>
+</html>
+
+<hr>
+
+<html>
+<head>
+<title>Default function calling</title>
+</head>
+<script type="text/javascript">
+
+function gretting(fname="Good",
+lname="Morning")
+{
+   document.write("Gretting "+ fname 
+   +" " + lname);    
+}
+
+ gretting("Namstey","Maharashtra");
+ document.write("<br>");
+document.write("<br>");
+ gretting ();
+ document.write("<br>");
+ document.write("<br>");
+ gretting("Hello");
+</script>
+</html>
+
+<hr>
+
+<html>
+<head>
+<title>Function without Argument</title>
+</head>
+<body>
+<script type="text/javascript">
+function gretting(fname,
+lname)
+{
+   document.write(fname 
+   +" " + lname);    
+}
+
+ gretting("Namstey");
+ document.write("<br>");
+ document.write("<br>");
+ gretting();
+</script>
+</body>
+</html>
