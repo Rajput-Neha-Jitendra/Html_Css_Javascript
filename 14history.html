@@ -1,0 +1,34 @@
+<html>
+<head>
+</head>
+<body bgcolor="pink">
+<center>
+<b>Javascript : History object</b>
+<br><br>
+<button onclick="backfunction()">Back</button>
+<br><br>
+<button onclick="forwardfunction()">Forward</button>
+<br><br>
+<button onclick="gofunction()">Go</button>
+</center>
+<script type="text/javascript">
+
+function backfunction()
+{
+  history.back();
+}
+
+function forwardfunction()
+{
+  history.forward();
+}
+</script>
+<script type="text/javascript">
+
+function gofunction()
+{
+  history.go(3);
+}
+</script>
+</body>
+</html>
