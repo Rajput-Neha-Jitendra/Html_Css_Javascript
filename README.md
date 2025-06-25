@@ -2,12 +2,6 @@
 
 This repository contains my practical work and mini projects completed during my BCA (Bachelor of Computer Applications) 1st and 2nd year. These include fundamental exercises and interactive front-end tasks using **HTML**, **CSS**, and **JavaScript**.
 
----
-
-## 📁 Folder Structur
-
----
-
 ## 📚 Practicals Covered
 
 ### ✅ BCA 1st Year Sem I
@@ -17,7 +11,7 @@ This repository contains my practical work and mini projects completed during my
 - Box Model and Layouts
 - Simple Web Page Designs
 
-### ✅ BCA 2nd Year Sem II
+### ✅ BCA 1st Year Sem II
 - JavaScript Basics (Variables, Loops, Functions)
 - DOM Manipulation
 - Form Validation
@@ -28,18 +22,12 @@ This repository contains my practical work and mini projects completed during my
 
 ## 🚀 How to Run
 
-1. Clone or download the repository:
-2. 
+1. Clone or download the repository
 2. Open any `.html` file in a browser to see the output.
 
 > No server or setup is required. These are static files and can be run directly in any modern browser.
 
----
-
-## 🎓 About Me
-
-**Name:** Neha Jitendra Rajput  
-**Course:** BCA (1st & 2nd Year)  
+--
 **Skills:** HTML, CSS, JavaScript, Python (Learning), Data Science (In Progress)
 
 ---
